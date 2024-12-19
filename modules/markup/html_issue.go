@@ -6,14 +6,14 @@ package markup
 import (
 	"strings"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/references"
-	"code.gitea.io/gitea/modules/regexplru"
-	"code.gitea.io/gitea/modules/templates/vars"
-	"code.gitea.io/gitea/modules/translation"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/httplib"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/references"
+	"github.com/okok7711/gitea/modules/regexplru"
+	"github.com/okok7711/gitea/modules/templates/vars"
+	"github.com/okok7711/gitea/modules/translation"
+	"github.com/okok7711/gitea/modules/util"
 
 	"golang.org/x/net/html"
 )

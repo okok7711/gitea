@@ -6,8 +6,8 @@ package cmd
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/private"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/urfave/cli/v2"
 )

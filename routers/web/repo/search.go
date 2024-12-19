@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/git"
-	code_indexer "code.gitea.io/gitea/modules/indexer/code"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/git"
+	code_indexer "github.com/okok7711/gitea/modules/indexer/code"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const tplSearch base.TplName = "repo/search"

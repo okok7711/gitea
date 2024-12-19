@@ -9,16 +9,16 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/web/explore"
-	"code.gitea.io/gitea/services/context"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/routers/web/explore"
+	"github.com/okok7711/gitea/services/context"
+	repo_service "github.com/okok7711/gitea/services/repository"
 )
 
 const (

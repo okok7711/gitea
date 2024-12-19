@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/models/db"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // UpdateRepositoryOwnerNames updates repository owner_names (this should only be used when the ownerName has changed case)

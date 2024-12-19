@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/translation"
 )
 
 var (

@@ -6,16 +6,16 @@ package uinotification
 import (
 	"context"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/queue"
-	notify_service "code.gitea.io/gitea/services/notify"
+	activities_model "github.com/okok7711/gitea/models/activities"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/graceful"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/queue"
+	notify_service "github.com/okok7711/gitea/services/notify"
 )
 
 type (

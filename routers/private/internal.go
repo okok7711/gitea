@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/private"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/routers/common"
+	"github.com/okok7711/gitea/services/context"
 
 	"gitea.com/go-chi/binding"
 	chi_middleware "github.com/go-chi/chi/v5/middleware"

@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/models/migrations/base"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"xorm.io/xorm"
 )

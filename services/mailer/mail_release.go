@@ -7,15 +7,15 @@ import (
 	"bytes"
 	"context"
 
-	"code.gitea.io/gitea/models/renderhelper"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	"github.com/okok7711/gitea/models/renderhelper"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/markup/markdown"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/translation"
+	sender_service "github.com/okok7711/gitea/services/mailer/sender"
 )
 
 const (

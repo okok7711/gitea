@@ -6,10 +6,10 @@ package admin
 import (
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
+	user_model "github.com/okok7711/gitea/models/user"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // ListUserBadges lists all badges belonging to a user

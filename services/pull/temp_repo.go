@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	git_model "code.gitea.io/gitea/models/git"
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	repo_module "code.gitea.io/gitea/modules/repository"
+	git_model "github.com/okok7711/gitea/models/git"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
+	repo_module "github.com/okok7711/gitea/modules/repository"
 )
 
 // Temporary repos created here use standard branch names to help simplify

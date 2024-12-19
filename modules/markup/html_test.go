@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/emoji"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/modules/setting"
-	testModule "code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/emoji"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/markup/markdown"
+	"github.com/okok7711/gitea/modules/setting"
+	testModule "github.com/okok7711/gitea/modules/test"
+	"github.com/okok7711/gitea/modules/util"
 
 	"github.com/stretchr/testify/assert"
 )

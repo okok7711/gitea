@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"net/url"
 
-	"code.gitea.io/gitea/models"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/okok7711/gitea/models"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
 )
 
 // GetTreeBySHA get the GitTreeResponse of a repository using a sha hash.

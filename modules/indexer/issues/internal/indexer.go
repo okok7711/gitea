@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/modules/indexer/internal"
+	"github.com/okok7711/gitea/modules/indexer/internal"
 )
 
 // Indexer defines an interface to indexer issues contents

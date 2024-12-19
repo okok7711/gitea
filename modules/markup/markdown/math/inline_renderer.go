@@ -6,7 +6,7 @@ package math
 import (
 	"bytes"
 
-	"code.gitea.io/gitea/modules/markup/nocturnal"
+	"github.com/okok7711/gitea/modules/markup/nocturnal"
 
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/renderer"

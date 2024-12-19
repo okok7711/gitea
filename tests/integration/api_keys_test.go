@@ -9,14 +9,14 @@ import (
 	"net/url"
 	"testing"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/perm"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/tests"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/models/perm"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/models/unittest"
+	user_model "github.com/okok7711/gitea/models/user"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -5,7 +5,7 @@
 
 package git
 
-import "code.gitea.io/gitea/modules/log"
+import "github.com/okok7711/gitea/modules/log"
 
 // TreeEntry the leaf in the git tree
 type TreeEntry struct {

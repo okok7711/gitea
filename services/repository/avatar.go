@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/avatar"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/storage"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/avatar"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/storage"
 )
 
 // UploadAvatar saves custom avatar for repository.

@@ -8,15 +8,15 @@ import (
 	"net/http"
 	"strings"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	attachment_service "code.gitea.io/gitea/services/attachment"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/context/upload"
-	"code.gitea.io/gitea/services/convert"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	attachment_service "github.com/okok7711/gitea/services/attachment"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/context/upload"
+	"github.com/okok7711/gitea/services/convert"
 )
 
 func checkReleaseMatchRepo(ctx *context.APIContext, releaseID int64) bool {

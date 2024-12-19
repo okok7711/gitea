@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/util"
 
 	"xorm.io/builder"
 )

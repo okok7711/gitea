@@ -10,11 +10,11 @@ import (
 	"net/url"
 	"strings"
 
-	webhook_model "code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/git"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	webhook_model "github.com/okok7711/gitea/models/webhook"
+	"github.com/okok7711/gitea/modules/git"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/util"
+	webhook_module "github.com/okok7711/gitea/modules/webhook"
 
 	dingtalk "gitea.com/lunny/dingtalk_webhook"
 )

@@ -9,8 +9,8 @@ import (
 	"encoding/base64"
 	"io"
 
-	"code.gitea.io/gitea/modules/typesniffer"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/typesniffer"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // This file contains common functions between the gogit and !gogit variants for git Blobs

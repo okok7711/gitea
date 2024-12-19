@@ -6,11 +6,11 @@ package issue
 import (
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // PrepareFilterIssueLabels reads the "labels" query parameter, sets `ctx.Data["Labels"]` and `ctx.Data["SelectLabels"]`

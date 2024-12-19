@@ -7,9 +7,9 @@ import (
 	"errors"
 	"net/http"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // RegistrationToken is response related to registration token

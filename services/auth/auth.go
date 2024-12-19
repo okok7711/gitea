@@ -10,15 +10,15 @@ import (
 	"regexp"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/auth/webauthn"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/session"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
-	gitea_context "code.gitea.io/gitea/services/context"
-	user_service "code.gitea.io/gitea/services/user"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/auth/webauthn"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/optional"
+	"github.com/okok7711/gitea/modules/session"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/web/middleware"
+	gitea_context "github.com/okok7711/gitea/services/context"
+	user_service "github.com/okok7711/gitea/services/user"
 )
 
 // Init should be called exactly once when the application starts to allow plugins

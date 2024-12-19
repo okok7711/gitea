@@ -8,15 +8,15 @@ import (
 	"net/http"
 	"strings"
 
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
+	git_model "github.com/okok7711/gitea/models/git"
+	"github.com/okok7711/gitea/models/organization"
+	"github.com/okok7711/gitea/models/perm"
+	access_model "github.com/okok7711/gitea/models/perm/access"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/forms"
 )
 
 const (

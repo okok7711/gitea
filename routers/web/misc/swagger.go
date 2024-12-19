@@ -6,8 +6,8 @@ package misc
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // tplSwagger swagger page template

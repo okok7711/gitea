@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 // RestoreParams structure holds a data for restore repository

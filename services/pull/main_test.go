@@ -7,9 +7,9 @@ package pull
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/okok7711/gitea/models/unittest"
 
-	_ "code.gitea.io/gitea/models/actions"
+	_ "github.com/okok7711/gitea/models/actions"
 )
 
 func TestMain(m *testing.M) {

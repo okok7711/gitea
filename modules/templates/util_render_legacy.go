@@ -7,8 +7,8 @@ import (
 	"context"
 	"html/template"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/translation"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/modules/translation"
 )
 
 func renderEmojiLegacy(ctx context.Context, text string) template.HTML {

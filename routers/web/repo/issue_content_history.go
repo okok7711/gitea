@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/models/avatars"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/models/avatars"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/templates"
+	"github.com/okok7711/gitea/services/context"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 )

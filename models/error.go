@@ -7,9 +7,9 @@ package models
 import (
 	"fmt"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/util"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // ErrUserOwnRepos represents a "UserOwnRepos" kind of error.

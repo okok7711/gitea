@@ -6,9 +6,9 @@ package doctor
 import (
 	"context"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 func synchronizeRepoHeads(ctx context.Context, logger log.Logger, autofix bool) error {

@@ -6,7 +6,7 @@ package feed
 import (
 	"context"
 
-	activities_model "code.gitea.io/gitea/models/activities"
+	activities_model "github.com/okok7711/gitea/models/activities"
 )
 
 // GetFeeds returns actions according to the provided options

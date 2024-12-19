@@ -6,7 +6,7 @@ package forms
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"
 )

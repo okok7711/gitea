@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/db"
-	git_model "code.gitea.io/gitea/models/git"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	"github.com/okok7711/gitea/models/db"
+	git_model "github.com/okok7711/gitea/models/git"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 // NewGraph creates a basic graph

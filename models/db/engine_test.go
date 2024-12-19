@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/setting"
 
-	_ "code.gitea.io/gitea/cmd" // for TestPrimaryKeys
+	_ "github.com/okok7711/gitea/cmd" // for TestPrimaryKeys
 
 	"github.com/stretchr/testify/assert"
 )
@@ -59,7 +59,7 @@ func TestPrimaryKeys(t *testing.T) {
 	//   https://github.com/go-gitea/gitea/issues/21086
 	//   https://github.com/go-gitea/gitea/issues/16802
 	// To avoid creating tables without primary key again, this test will check them.
-	// Import "code.gitea.io/gitea/cmd" to make sure each db.RegisterModel in init functions has been called.
+	// Import "github.com/okok7711/gitea/cmd" to make sure each db.RegisterModel in init functions has been called.
 
 	beans, err := db.NamesToBean()
 	if err != nil {

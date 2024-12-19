@@ -6,10 +6,10 @@ package conan
 import (
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/services/auth"
-	"code.gitea.io/gitea/services/packages"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/services/auth"
+	"github.com/okok7711/gitea/services/packages"
 )
 
 var _ auth.Method = &Auth{}

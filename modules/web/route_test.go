@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/test"
 
 	chi "github.com/go-chi/chi/v5"
 	"github.com/stretchr/testify/assert"

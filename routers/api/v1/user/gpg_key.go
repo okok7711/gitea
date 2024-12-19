@@ -8,15 +8,15 @@ import (
 	"net/http"
 	"strings"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	"github.com/okok7711/gitea/models/db"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/routers/api/v1/utils"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
 )
 
 func listGPGKeys(ctx *context.APIContext, uid int64, listOptions db.ListOptions) {

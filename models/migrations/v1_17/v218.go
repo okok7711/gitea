@@ -4,8 +4,8 @@
 package v1_17 //nolint
 
 import (
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"xorm.io/xorm"
 	"xorm.io/xorm/schemas"

@@ -10,13 +10,13 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/test"
+	"github.com/okok7711/gitea/modules/translation"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/modules/indexer/internal"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/indexer/internal"
+	"github.com/okok7711/gitea/modules/log"
 
 	"github.com/blevesearch/bleve/v2"
 	"github.com/blevesearch/bleve/v2/mapping"

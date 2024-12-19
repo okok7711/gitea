@@ -6,8 +6,8 @@ package v1_14 //nolint
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/models/migrations/base"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,12 +6,12 @@ package webhook
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	webhook_model "code.gitea.io/gitea/models/webhook"
-	api "code.gitea.io/gitea/modules/structs"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/models/unittest"
+	webhook_model "github.com/okok7711/gitea/models/webhook"
+	api "github.com/okok7711/gitea/modules/structs"
+	webhook_module "github.com/okok7711/gitea/modules/webhook"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,14 +6,14 @@ package packages_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/okok7711/gitea/models/db"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	"github.com/okok7711/gitea/models/unittest"
+	user_model "github.com/okok7711/gitea/models/user"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
+	_ "github.com/okok7711/gitea/models"
+	_ "github.com/okok7711/gitea/models/actions"
+	_ "github.com/okok7711/gitea/models/activities"
 
 	"github.com/stretchr/testify/assert"
 )

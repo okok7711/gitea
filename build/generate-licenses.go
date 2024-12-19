@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/build/license"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/build/license"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 func main() {

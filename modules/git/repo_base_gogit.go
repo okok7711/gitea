@@ -10,9 +10,9 @@ import (
 	"context"
 	"path/filepath"
 
-	gitealog "code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	gitealog "github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/osfs"

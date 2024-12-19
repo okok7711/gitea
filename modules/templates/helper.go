@@ -13,16 +13,16 @@ import (
 	"strings"
 	"time"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/svg"
-	"code.gitea.io/gitea/modules/templates/eval"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/gitdiff"
-	"code.gitea.io/gitea/services/webtheme"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/htmlutil"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/svg"
+	"github.com/okok7711/gitea/modules/templates/eval"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/gitdiff"
+	"github.com/okok7711/gitea/services/webtheme"
 )
 
 // NewFuncMap returns functions for injecting to templates

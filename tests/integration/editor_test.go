@@ -11,8 +11,8 @@ import (
 	"path"
 	"testing"
 
-	"code.gitea.io/gitea/modules/json"
-	gitea_context "code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/json"
+	gitea_context "github.com/okok7711/gitea/services/context"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/test"
+	"github.com/okok7711/gitea/modules/translation"
 
 	"github.com/stretchr/testify/assert"
 )

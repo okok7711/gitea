@@ -7,14 +7,14 @@ import (
 	"errors"
 	"net/http"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	issue_service "code.gitea.io/gitea/services/issue"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	user_model "github.com/okok7711/gitea/models/user"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/routers/api/v1/utils"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
+	issue_service "github.com/okok7711/gitea/services/issue"
 )
 
 // GetIssueCommentReactions list reactions of a comment from an issue

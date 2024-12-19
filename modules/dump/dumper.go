@@ -12,9 +12,9 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"github.com/mholt/archiver/v3"
 )

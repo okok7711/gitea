@@ -6,13 +6,13 @@ package actions
 import (
 	"errors"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/forms"
 )
 
 // RunnersList prepares data for runners list

@@ -7,12 +7,12 @@ import (
 	"context"
 	"slices"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/log"
-	actions_service "code.gitea.io/gitea/services/actions"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/models/unit"
+	"github.com/okok7711/gitea/modules/log"
+	actions_service "github.com/okok7711/gitea/services/actions"
 )
 
 // UpdateRepositoryUnits updates a repository's units

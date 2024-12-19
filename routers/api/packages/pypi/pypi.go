@@ -11,14 +11,14 @@ import (
 	"sort"
 	"strings"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	pypi_module "code.gitea.io/gitea/modules/packages/pypi"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/validation"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	packages_module "github.com/okok7711/gitea/modules/packages"
+	pypi_module "github.com/okok7711/gitea/modules/packages/pypi"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/validation"
+	"github.com/okok7711/gitea/routers/api/packages/helper"
+	"github.com/okok7711/gitea/services/context"
+	packages_service "github.com/okok7711/gitea/services/packages"
 )
 
 // https://peps.python.org/pep-0426/#name

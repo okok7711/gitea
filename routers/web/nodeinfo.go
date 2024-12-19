@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/context"
 )
 
 type nodeInfoLinks struct {

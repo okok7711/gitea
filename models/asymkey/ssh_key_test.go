@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/42wim/sshsig"
 	"github.com/stretchr/testify/assert"

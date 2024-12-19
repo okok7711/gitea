@@ -8,12 +8,12 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/log"
-	repo_module "code.gitea.io/gitea/modules/repository"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/gitrepo"
+	"github.com/okok7711/gitea/modules/log"
+	repo_module "github.com/okok7711/gitea/modules/repository"
 
 	"github.com/urfave/cli/v2"
 )

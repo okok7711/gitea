@@ -4,8 +4,8 @@
 package sspi
 
 import (
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/json"
+	"github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/modules/json"
 )
 
 //   _________ ___________________.___

@@ -10,12 +10,12 @@ import (
 	"path"
 	"strings"
 
-	git_model "code.gitea.io/gitea/models/git"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/lfs"
-	"code.gitea.io/gitea/modules/setting"
+	git_model "github.com/okok7711/gitea/models/git"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/lfs"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 // UploadRepoFileOptions contains the uploaded repository file options

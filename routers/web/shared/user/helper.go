@@ -8,9 +8,9 @@ import (
 	"slices"
 	"strconv"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/optional"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/optional"
 )
 
 func MakeSelfOnTop(doer *user.User, users []*user.User) []*user.User {

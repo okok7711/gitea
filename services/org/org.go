@@ -7,17 +7,17 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models"
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	org_model "code.gitea.io/gitea/models/organization"
-	packages_model "code.gitea.io/gitea/models/packages"
-	repo_model "code.gitea.io/gitea/models/repo"
-	secret_model "code.gitea.io/gitea/models/secret"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/util"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/okok7711/gitea/models"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/models/db"
+	org_model "github.com/okok7711/gitea/models/organization"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	secret_model "github.com/okok7711/gitea/models/secret"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/storage"
+	"github.com/okok7711/gitea/modules/util"
+	repo_service "github.com/okok7711/gitea/services/repository"
 )
 
 // deleteOrganization deletes models associated to an organization.

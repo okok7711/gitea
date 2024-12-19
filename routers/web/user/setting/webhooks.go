@@ -6,12 +6,12 @@ package setting
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/models/db"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/models/webhook"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

@@ -6,8 +6,8 @@ package markdown
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/util"
 
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/text"

@@ -7,11 +7,11 @@ import (
 	"context"
 	"testing"
 
-	webhook_model "code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	webhook_model "github.com/okok7711/gitea/models/webhook"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
+	webhook_module "github.com/okok7711/gitea/modules/webhook"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

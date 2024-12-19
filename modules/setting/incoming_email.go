@@ -8,7 +8,7 @@ import (
 	"net/mail"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 var IncomingEmail = struct {

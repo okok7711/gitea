@@ -6,8 +6,8 @@ package user
 import (
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/services/context"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // GetUserByParamsName get user by name

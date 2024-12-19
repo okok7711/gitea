@@ -9,17 +9,17 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/models"
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/models/organization"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	releaseservice "code.gitea.io/gitea/services/release"
+	"github.com/okok7711/gitea/models"
+	git_model "github.com/okok7711/gitea/models/git"
+	"github.com/okok7711/gitea/models/organization"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/routers/api/v1/utils"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
+	releaseservice "github.com/okok7711/gitea/services/release"
 )
 
 // ListTags list all the tags of a repository

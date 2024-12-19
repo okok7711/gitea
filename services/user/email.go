@@ -8,10 +8,10 @@ import (
 	"errors"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/models/db"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // AdminAddOrSetPrimaryEmailAddress is used by admins to add or set a user's primary email address

@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
+	user_model "github.com/okok7711/gitea/models/user"
 )
 
 // Ensure the struct implements the interface.

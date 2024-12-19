@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/okok7711/gitea/modules/translation"
 
 	"github.com/yuin/goldmark/ast"
 )

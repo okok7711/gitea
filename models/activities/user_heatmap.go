@@ -6,11 +6,11 @@ package activities
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/organization"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/timeutil"
 )
 
 // UserHeatmapData represents the data needed to create a heatmap

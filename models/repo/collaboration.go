@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/models/unit"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/perm"
+	"github.com/okok7711/gitea/models/unit"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"xorm.io/builder"
 )

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 // lsFileLine is a Quadruplet struct (+error) representing a partially parsed line from ls-files

@@ -4,8 +4,8 @@
 package math
 
 import (
-	"code.gitea.io/gitea/modules/markup/nocturnal"
-	giteaUtil "code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/markup/nocturnal"
+	giteaUtil "github.com/okok7711/gitea/modules/util"
 
 	gast "github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/renderer"

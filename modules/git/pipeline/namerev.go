@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/git"
 )
 
 // NameRevStdin runs name-rev --stdin

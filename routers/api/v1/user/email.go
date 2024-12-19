@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	user_service "code.gitea.io/gitea/services/user"
+	user_model "github.com/okok7711/gitea/models/user"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
+	user_service "github.com/okok7711/gitea/services/user"
 )
 
 // ListEmails list all of the authenticated user's email addresses

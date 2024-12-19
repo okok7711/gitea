@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"time"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/proxyprotocol"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/httplib"
+	"github.com/okok7711/gitea/modules/proxyprotocol"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/charmbracelet/git-lfs-transfer/transfer"
 )

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 
-	pingv1 "code.gitea.io/actions-proto-go/ping/v1"
-	"code.gitea.io/actions-proto-go/ping/v1/pingv1connect"
+	pingv1 "github.com/okok7711/actions-proto-go/ping/v1"
+	"github.com/okok7711/actions-proto-go/ping/v1/pingv1connect"
 	"connectrpc.com/connect"
 )
 

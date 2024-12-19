@@ -12,17 +12,17 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/lfs"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
-	"code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/gitrepo"
+	"github.com/okok7711/gitea/modules/lfs"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/process"
+	"github.com/okok7711/gitea/modules/repository"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 var stripExitStatus = regexp.MustCompile(`exit status \d+ - `)

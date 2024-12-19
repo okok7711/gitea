@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/json"
 )
 
 // Level is the level of the logger

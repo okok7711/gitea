@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"github.com/mholt/archiver/v3"
 	"github.com/stretchr/testify/assert"

@@ -7,9 +7,9 @@ import (
 	"context"
 	"io"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/gitrepo"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 type commitChecker struct {

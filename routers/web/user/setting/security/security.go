@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"sort"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/auth/source/oauth2"
-	"code.gitea.io/gitea/services/context"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/models/db"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/optional"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/auth/source/oauth2"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

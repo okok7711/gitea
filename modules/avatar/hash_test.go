@@ -9,7 +9,7 @@ import (
 	"image/png"
 	"testing"
 
-	"code.gitea.io/gitea/modules/avatar"
+	"github.com/okok7711/gitea/modules/avatar"
 
 	"github.com/stretchr/testify/assert"
 )

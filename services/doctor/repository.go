@@ -6,11 +6,11 @@ package doctor
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/storage"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/okok7711/gitea/models/db"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/storage"
+	repo_service "github.com/okok7711/gitea/services/repository"
 
 	"xorm.io/builder"
 )

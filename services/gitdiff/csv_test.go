@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	csv_module "code.gitea.io/gitea/modules/csv"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/models/db"
+	csv_module "github.com/okok7711/gitea/modules/csv"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"
 )

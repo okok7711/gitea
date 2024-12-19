@@ -9,15 +9,15 @@ import (
 	"net/http"
 	"strings"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	auth_model "code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web/middleware"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/web/middleware"
 )
 
 // Ensure the struct implements the interface.

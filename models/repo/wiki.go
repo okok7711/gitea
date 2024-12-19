@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // ErrWikiAlreadyExist represents a "WikiAlreadyExist" kind of error.

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/tests"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/tests"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/stretchr/testify/assert"

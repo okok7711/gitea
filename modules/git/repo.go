@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/proxy"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/proxy"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // GPGSettings represents the default GPG settings for this repository

@@ -7,8 +7,8 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/util"
 
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"

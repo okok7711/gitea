@@ -4,9 +4,9 @@
 package pam_test
 
 import (
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/services/auth"
-	"code.gitea.io/gitea/services/auth/source/pam"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/services/auth"
+	"github.com/okok7711/gitea/services/auth/source/pam"
 )
 
 // This test file exists to assert that our Source exposes the interfaces that we expect

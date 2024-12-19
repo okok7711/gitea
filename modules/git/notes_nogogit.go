@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 // GetNote retrieves the git-notes data for a given commit.

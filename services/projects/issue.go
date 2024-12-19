@@ -7,10 +7,10 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	project_model "code.gitea.io/gitea/models/project"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	project_model "github.com/okok7711/gitea/models/project"
+	user_model "github.com/okok7711/gitea/models/user"
 )
 
 // MoveIssuesOnProjectColumn moves or keeps issues in a column and sorts them inside that column

@@ -6,9 +6,9 @@ package v1_6 //nolint
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/models/migrations/base"
+	"github.com/okok7711/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/util"
 
 	"xorm.io/xorm"
 )

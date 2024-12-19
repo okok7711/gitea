@@ -9,10 +9,10 @@ import (
 	"io"
 	"os"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	packages_module "github.com/okok7711/gitea/modules/packages"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 var (

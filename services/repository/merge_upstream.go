@@ -7,14 +7,14 @@ import (
 	"context"
 	"fmt"
 
-	git_model "code.gitea.io/gitea/models/git"
-	issue_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/pull"
+	git_model "github.com/okok7711/gitea/models/git"
+	issue_model "github.com/okok7711/gitea/models/issues"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	repo_module "github.com/okok7711/gitea/modules/repository"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/pull"
 )
 
 type UpstreamDivergingInfo struct {

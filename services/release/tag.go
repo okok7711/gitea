@@ -8,12 +8,12 @@ import (
 	"errors"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/queue"
-	repo_module "code.gitea.io/gitea/modules/repository"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/graceful"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/queue"
+	repo_module "github.com/okok7711/gitea/modules/repository"
 
 	"xorm.io/builder"
 )

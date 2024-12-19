@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/markdown"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/markup/markdown"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/test"
+	"github.com/okok7711/gitea/modules/web/middleware"
 
 	"github.com/stretchr/testify/assert"
 )

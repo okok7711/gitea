@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strconv"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/services/context"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

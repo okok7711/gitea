@@ -6,10 +6,10 @@ package misc
 import (
 	"net/http"
 
-	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	repo_module "github.com/okok7711/gitea/modules/repository"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
 )
 
 // Shows a list of all Label templates

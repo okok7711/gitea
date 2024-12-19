@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/tests"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/tests"
 )
 
 func TestAPIUpdateUser(t *testing.T) {

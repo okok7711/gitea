@@ -7,9 +7,9 @@ import (
 	"context"
 	"strings"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	user_model "code.gitea.io/gitea/models/user"
-	container_module "code.gitea.io/gitea/modules/packages/container"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	user_model "github.com/okok7711/gitea/models/user"
+	container_module "github.com/okok7711/gitea/modules/packages/container"
 )
 
 // UpdateRepositoryNames updates the repository name property for all packages of the specific owner

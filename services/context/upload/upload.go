@@ -11,9 +11,9 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // ErrFileTypeForbidden not allowed file type error

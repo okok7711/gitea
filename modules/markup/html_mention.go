@@ -6,8 +6,8 @@ package markup
 import (
 	"strings"
 
-	"code.gitea.io/gitea/modules/references"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/references"
+	"github.com/okok7711/gitea/modules/util"
 
 	"golang.org/x/net/html"
 )

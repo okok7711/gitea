@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/contexttest"
-	"code.gitea.io/gitea/services/forms"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/contexttest"
+	"github.com/okok7711/gitea/services/forms"
 
 	"github.com/stretchr/testify/assert"
 )

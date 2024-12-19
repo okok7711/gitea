@@ -10,19 +10,19 @@ import (
 
 	_ "image/jpeg" // Needed for jpeg support
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	activities_model "code.gitea.io/gitea/models/activities"
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	git_model "code.gitea.io/gitea/models/git"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/organization"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	pull_model "code.gitea.io/gitea/models/pull"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/setting"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	activities_model "github.com/okok7711/gitea/models/activities"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/models/db"
+	git_model "github.com/okok7711/gitea/models/git"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/models/organization"
+	access_model "github.com/okok7711/gitea/models/perm/access"
+	pull_model "github.com/okok7711/gitea/models/pull"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"xorm.io/builder"
 )

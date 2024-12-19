@@ -11,17 +11,17 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models"
-	git_model "code.gitea.io/gitea/models/git"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/lfs"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
+	"github.com/okok7711/gitea/models"
+	git_model "github.com/okok7711/gitea/models/git"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/gitrepo"
+	"github.com/okok7711/gitea/modules/lfs"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/structs"
+	asymkey_service "github.com/okok7711/gitea/services/asymkey"
 )
 
 // IdentityOptions for a person's identity like an author or committer

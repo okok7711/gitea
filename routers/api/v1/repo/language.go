@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strconv"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/services/context"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/services/context"
 )
 
 type languageResponse []*repo_model.LanguageStat

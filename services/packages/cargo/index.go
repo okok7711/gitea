@@ -13,17 +13,17 @@ import (
 	"strconv"
 	"time"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/json"
-	cargo_module "code.gitea.io/gitea/modules/packages/cargo"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	repo_service "code.gitea.io/gitea/services/repository"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/json"
+	cargo_module "github.com/okok7711/gitea/modules/packages/cargo"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/util"
+	repo_service "github.com/okok7711/gitea/services/repository"
+	files_service "github.com/okok7711/gitea/services/repository/files"
 )
 
 const (

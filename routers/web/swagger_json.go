@@ -4,7 +4,7 @@
 package web
 
 import (
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // SwaggerV1Json render swagger v1 json

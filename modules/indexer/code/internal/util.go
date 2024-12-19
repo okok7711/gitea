@@ -6,8 +6,8 @@ package internal
 import (
 	"strings"
 
-	"code.gitea.io/gitea/modules/indexer/internal"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/indexer/internal"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 const (

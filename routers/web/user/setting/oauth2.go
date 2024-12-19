@@ -4,9 +4,9 @@
 package setting
 
 import (
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

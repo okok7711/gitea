@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"xorm.io/xorm"
 )

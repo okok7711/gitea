@@ -9,14 +9,14 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/models"
-	issues_model "code.gitea.io/gitea/models/issues"
-	project_model "code.gitea.io/gitea/models/project"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/webhook"
+	"github.com/okok7711/gitea/models"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	project_model "github.com/okok7711/gitea/models/project"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web/middleware"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/webhook"
 
 	"gitea.com/go-chi/binding"
 )

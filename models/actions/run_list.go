@@ -6,11 +6,11 @@ package actions
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/container"
+	webhook_module "github.com/okok7711/gitea/modules/webhook"
 
 	"xorm.io/builder"
 )

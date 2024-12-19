@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"github.com/go-enry/go-enry/v2"
 )

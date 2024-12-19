@@ -7,19 +7,19 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	webhook_service "code.gitea.io/gitea/services/webhook"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/perm"
+	access_model "github.com/okok7711/gitea/models/perm/access"
+	"github.com/okok7711/gitea/models/webhook"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	webhook_module "github.com/okok7711/gitea/modules/webhook"
+	"github.com/okok7711/gitea/routers/api/v1/utils"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
+	webhook_service "github.com/okok7711/gitea/services/webhook"
 )
 
 // ListHooks list all hooks of a repository

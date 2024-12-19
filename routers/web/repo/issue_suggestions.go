@@ -6,13 +6,13 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unit"
-	issue_indexer "code.gitea.io/gitea/modules/indexer/issues"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/models/unit"
+	issue_indexer "github.com/okok7711/gitea/modules/indexer/issues"
+	"github.com/okok7711/gitea/modules/optional"
+	"github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // IssueSuggestions returns a list of issue suggestions

@@ -6,9 +6,9 @@ package organization
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/models/unit"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/perm"
+	"github.com/okok7711/gitea/models/unit"
 )
 
 // TeamUnit describes all units of a repository

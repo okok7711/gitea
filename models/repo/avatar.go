@@ -10,12 +10,12 @@ import (
 	"io"
 	"net/url"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/avatar"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/avatar"
+	"github.com/okok7711/gitea/modules/httplib"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/storage"
 )
 
 // CustomAvatarRelativePath returns repository custom avatar file path.

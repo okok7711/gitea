@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/microcosm-cc/bluemonday"
 )

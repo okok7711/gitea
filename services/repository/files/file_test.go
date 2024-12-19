@@ -6,11 +6,11 @@ package files
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/services/contexttest"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/gitrepo"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/services/contexttest"
 
 	"github.com/stretchr/testify/assert"
 )

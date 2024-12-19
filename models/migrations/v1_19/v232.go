@@ -4,7 +4,7 @@
 package v1_19 //nolint
 
 import (
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"xorm.io/xorm"
 )

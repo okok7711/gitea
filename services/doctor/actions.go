@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	unit_model "code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	unit_model "github.com/okok7711/gitea/models/unit"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/optional"
+	repo_service "github.com/okok7711/gitea/services/repository"
 )
 
 func disableMirrorActionsUnit(ctx context.Context, logger log.Logger, autofix bool) error {

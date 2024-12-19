@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"path"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/util"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 type RepoFile struct {

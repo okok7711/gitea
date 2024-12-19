@@ -6,9 +6,9 @@ package git_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/okok7711/gitea/models/db"
+	git_model "github.com/okok7711/gitea/models/git"
+	"github.com/okok7711/gitea/models/unittest"
 
 	"github.com/stretchr/testify/assert"
 )

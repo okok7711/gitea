@@ -9,11 +9,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/models/user"
-	gitea_context "code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/contexttest"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/models/user"
+	gitea_context "github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/contexttest"
 
 	"github.com/stretchr/testify/assert"
 )

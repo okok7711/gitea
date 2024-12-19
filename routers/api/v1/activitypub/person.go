@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/modules/activitypub"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/activitypub"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/context"
 
 	ap "github.com/go-ap/activitypub"
 	"github.com/go-ap/jsonld"

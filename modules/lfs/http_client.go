@@ -13,10 +13,10 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/proxy"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/proxy"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"golang.org/x/sync/errgroup"
 )

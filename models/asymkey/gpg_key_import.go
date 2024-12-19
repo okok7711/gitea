@@ -6,7 +6,7 @@ package asymkey
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
+	"github.com/okok7711/gitea/models/db"
 )
 
 //    __________________  ________   ____  __.

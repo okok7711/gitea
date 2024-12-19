@@ -6,11 +6,11 @@ package asymkey
 import (
 	"testing"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	"github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/unittest"
+	user_model "github.com/okok7711/gitea/models/user"
 
 	"github.com/stretchr/testify/assert"
 )

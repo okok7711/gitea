@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/models/unittest"
+	user_model "github.com/okok7711/gitea/models/user"
 
 	"github.com/stretchr/testify/assert"
 )

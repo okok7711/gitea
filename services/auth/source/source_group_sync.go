@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	org_service "code.gitea.io/gitea/services/org"
+	"github.com/okok7711/gitea/models/organization"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/log"
+	org_service "github.com/okok7711/gitea/services/org"
 )
 
 type syncType int

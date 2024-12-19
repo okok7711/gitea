@@ -6,12 +6,12 @@ package admin
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/cron"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/routers/api/v1/utils"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/cron"
 )
 
 // ListCronTasks api for getting cron tasks

@@ -10,8 +10,8 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/foreachref"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/git/foreachref"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // TagPrefix tags prefix path on the repository

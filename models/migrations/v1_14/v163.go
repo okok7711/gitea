@@ -4,7 +4,7 @@
 package v1_14 //nolint
 
 import (
-	"code.gitea.io/gitea/models/migrations/base"
+	"github.com/okok7711/gitea/models/migrations/base"
 
 	"xorm.io/xorm"
 )

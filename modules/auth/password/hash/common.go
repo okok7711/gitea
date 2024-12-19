@@ -6,7 +6,7 @@ package hash
 import (
 	"strconv"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 func parseIntParam(value, param, algorithmName, config string, previousErr error) (int, error) {

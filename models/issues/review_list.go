@@ -6,11 +6,11 @@ package issues
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	organization_model "code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/optional"
+	"github.com/okok7711/gitea/models/db"
+	organization_model "github.com/okok7711/gitea/models/organization"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/optional"
 
 	"xorm.io/builder"
 )

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 // Indexer settings

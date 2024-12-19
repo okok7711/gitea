@@ -8,14 +8,14 @@ import (
 	"net/url"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
-	packages_cleanup_service "code.gitea.io/gitea/services/packages/cleanup"
+	"github.com/okok7711/gitea/models/db"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/optional"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/services/context"
+	packages_service "github.com/okok7711/gitea/services/packages"
+	packages_cleanup_service "github.com/okok7711/gitea/services/packages/cleanup"
 )
 
 const (

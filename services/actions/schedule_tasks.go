@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"time"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/timeutil"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/models/unit"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/timeutil"
+	webhook_module "github.com/okok7711/gitea/modules/webhook"
 
 	"github.com/nektos/act/pkg/jobparser"
 )

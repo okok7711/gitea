@@ -8,13 +8,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/contexttest"
-	"code.gitea.io/gitea/services/pull"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/templates"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/contexttest"
+	"github.com/okok7711/gitea/services/pull"
 
 	"github.com/stretchr/testify/assert"
 )

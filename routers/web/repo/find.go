@@ -6,9 +6,9 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

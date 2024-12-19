@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"strings"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
+	repo_module "github.com/okok7711/gitea/modules/repository"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 // updateHeadByRebaseOnToBase handles updating a PR's head branch by rebasing it on the PR current base branch

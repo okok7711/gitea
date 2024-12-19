@@ -10,11 +10,11 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/highlight"
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/highlight"
+	"github.com/okok7711/gitea/modules/htmlutil"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/alecthomas/chroma/v2"
 	"github.com/alecthomas/chroma/v2/lexers"

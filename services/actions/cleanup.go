@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"time"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	actions_module "code.gitea.io/gitea/modules/actions"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/timeutil"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	actions_module "github.com/okok7711/gitea/modules/actions"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/storage"
+	"github.com/okok7711/gitea/modules/timeutil"
 )
 
 // Cleanup removes expired actions logs, data and artifacts

@@ -10,16 +10,16 @@ import (
 	"html/template"
 	"strings"
 
-	"code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/charset"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/indexer/code"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/setting"
-	gitea_context "code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/repository/files"
+	"github.com/okok7711/gitea/models/perm/access"
+	"github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/models/unit"
+	"github.com/okok7711/gitea/modules/charset"
+	"github.com/okok7711/gitea/modules/gitrepo"
+	"github.com/okok7711/gitea/modules/indexer/code"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/setting"
+	gitea_context "github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/repository/files"
 )
 
 func renderRepoFileCodePreview(ctx context.Context, opts markup.RenderCodePreviewOptions) (template.HTML, error) {

@@ -9,12 +9,12 @@ import (
 	"errors"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/models/unit"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"xorm.io/builder"
 )

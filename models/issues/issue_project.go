@@ -6,10 +6,10 @@ package issues
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	project_model "code.gitea.io/gitea/models/project"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/models/db"
+	project_model "github.com/okok7711/gitea/models/project"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // LoadProject load the project the issue was assigned to

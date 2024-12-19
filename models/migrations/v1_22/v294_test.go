@@ -7,7 +7,7 @@ import (
 	"slices"
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/base"
+	"github.com/okok7711/gitea/models/migrations/base"
 
 	"github.com/stretchr/testify/assert"
 	"xorm.io/xorm/schemas"

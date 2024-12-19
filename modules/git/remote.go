@@ -6,7 +6,7 @@ package git
 import (
 	"context"
 
-	giturl "code.gitea.io/gitea/modules/git/url"
+	giturl "github.com/okok7711/gitea/modules/git/url"
 )
 
 // GetRemoteAddress returns remote url of git repository in the repoPath with special remote name

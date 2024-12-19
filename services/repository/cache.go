@@ -6,9 +6,9 @@ package repository
 import (
 	"context"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/cache"
-	"code.gitea.io/gitea/modules/git"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/cache"
+	"github.com/okok7711/gitea/modules/git"
 )
 
 // CacheRef cachhe last commit information of the branch or the tag

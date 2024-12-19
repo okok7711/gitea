@@ -8,11 +8,11 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/organization"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/organization"
+	access_model "github.com/okok7711/gitea/models/perm/access"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
 )
 
 // RemoveOrgUser removes user from given organization.

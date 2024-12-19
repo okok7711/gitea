@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 // Response is the structure of JSON returned from API

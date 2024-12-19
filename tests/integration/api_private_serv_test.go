@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"testing"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/modules/private"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	"github.com/okok7711/gitea/models/perm"
+	"github.com/okok7711/gitea/modules/private"
 
 	"github.com/stretchr/testify/assert"
 )

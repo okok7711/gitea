@@ -8,8 +8,8 @@ package public
 import (
 	"time"
 
-	"code.gitea.io/gitea/modules/assetfs"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/assetfs"
+	"github.com/okok7711/gitea/modules/timeutil"
 )
 
 var _ GzipBytesProvider = (*vfsgen۰CompressedFileInfo)(nil)

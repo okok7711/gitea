@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"strings"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	auth_module "code.gitea.io/gitea/modules/auth"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	source_service "code.gitea.io/gitea/services/auth/source"
-	user_service "code.gitea.io/gitea/services/user"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/organization"
+	user_model "github.com/okok7711/gitea/models/user"
+	auth_module "github.com/okok7711/gitea/modules/auth"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/optional"
+	asymkey_service "github.com/okok7711/gitea/services/asymkey"
+	source_service "github.com/okok7711/gitea/services/auth/source"
+	user_service "github.com/okok7711/gitea/services/user"
 )
 
 // Sync causes this ldap source to synchronize its users with the db

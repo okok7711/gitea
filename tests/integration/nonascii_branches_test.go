@@ -10,7 +10,7 @@ import (
 	"path"
 	"testing"
 
-	"code.gitea.io/gitea/tests"
+	"github.com/okok7711/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

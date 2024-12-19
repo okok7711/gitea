@@ -13,7 +13,7 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 // IsObjectExist returns true if the given object exists in the repository.

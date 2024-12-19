@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/assetfs"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/assetfs"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/httpcache"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 func CustomAssets() *assetfs.Layer {

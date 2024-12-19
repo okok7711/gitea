@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/public"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 var (

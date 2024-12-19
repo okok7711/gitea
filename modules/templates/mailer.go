@@ -11,9 +11,9 @@ import (
 	"strings"
 	texttmpl "text/template"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 var mailSubjectSplit = regexp.MustCompile(`(?m)^-{3,}\s*$`)

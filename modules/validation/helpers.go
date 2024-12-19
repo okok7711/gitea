@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/gobwas/glob"
 )

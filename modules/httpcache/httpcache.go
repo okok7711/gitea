@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 // SetCacheControlInHeader sets suitable cache-control headers in the response

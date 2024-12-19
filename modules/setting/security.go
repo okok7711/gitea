@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"code.gitea.io/gitea/modules/auth/password/hash"
-	"code.gitea.io/gitea/modules/generate"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/auth/password/hash"
+	"github.com/okok7711/gitea/modules/generate"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 var (

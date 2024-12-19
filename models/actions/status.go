@@ -4,9 +4,9 @@
 package actions
 
 import (
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/okok7711/gitea/modules/translation"
 
-	runnerv1 "code.gitea.io/actions-proto-go/runner/v1"
+	runnerv1 "github.com/okok7711/actions-proto-go/runner/v1"
 )
 
 // Status represents the status of ActionRun, ActionRunJob, ActionTask, or ActionTaskStep

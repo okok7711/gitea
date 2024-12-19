@@ -6,7 +6,7 @@ package session
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"gitea.com/go-chi/session"
 )

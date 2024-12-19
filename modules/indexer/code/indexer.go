@@ -11,16 +11,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/indexer/code/bleve"
-	"code.gitea.io/gitea/modules/indexer/code/elasticsearch"
-	"code.gitea.io/gitea/modules/indexer/code/internal"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
-	"code.gitea.io/gitea/modules/queue"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/models/db"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/graceful"
+	"github.com/okok7711/gitea/modules/indexer/code/bleve"
+	"github.com/okok7711/gitea/modules/indexer/code/elasticsearch"
+	"github.com/okok7711/gitea/modules/indexer/code/internal"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/process"
+	"github.com/okok7711/gitea/modules/queue"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 var (

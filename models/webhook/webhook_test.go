@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/timeutil"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/optional"
+	"github.com/okok7711/gitea/modules/timeutil"
+	webhook_module "github.com/okok7711/gitea/modules/webhook"
 
 	"github.com/stretchr/testify/assert"
 )

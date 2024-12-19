@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 type RequestContextKeyStruct struct{}

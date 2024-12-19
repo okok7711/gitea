@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/validation"
 
 	"gopkg.in/yaml.v3"
 )

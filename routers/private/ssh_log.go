@@ -6,11 +6,11 @@ package private
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/private"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // SSHLog hook to response ssh log

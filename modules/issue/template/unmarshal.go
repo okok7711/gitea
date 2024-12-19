@@ -9,11 +9,11 @@ import (
 	"path"
 	"strconv"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/markup/markdown"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/util"
 
 	"gopkg.in/yaml.v3"
 )

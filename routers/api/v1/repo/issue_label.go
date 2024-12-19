@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"reflect"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	issue_service "code.gitea.io/gitea/services/issue"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
+	issue_service "github.com/okok7711/gitea/services/issue"
 )
 
 // ListIssueLabels list all the labels of an issue

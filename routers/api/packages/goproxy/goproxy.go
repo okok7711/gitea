@@ -11,14 +11,14 @@ import (
 	"sort"
 	"time"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/modules/optional"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	goproxy_module "code.gitea.io/gitea/modules/packages/goproxy"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "github.com/okok7711/gitea/models/packages"
+	"github.com/okok7711/gitea/modules/optional"
+	packages_module "github.com/okok7711/gitea/modules/packages"
+	goproxy_module "github.com/okok7711/gitea/modules/packages/goproxy"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/routers/api/packages/helper"
+	"github.com/okok7711/gitea/services/context"
+	packages_service "github.com/okok7711/gitea/services/packages"
 )
 
 func apiError(ctx *context.Context, status int, obj any) {

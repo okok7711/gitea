@@ -10,7 +10,7 @@ import (
 	"io"
 	"os"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 // CheckAttributeOpts represents the possible options to CheckAttribute

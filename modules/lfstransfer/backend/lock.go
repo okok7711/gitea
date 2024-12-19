@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	"code.gitea.io/gitea/modules/json"
-	lfslock "code.gitea.io/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/json"
+	lfslock "github.com/okok7711/gitea/modules/structs"
 
 	"github.com/charmbracelet/git-lfs-transfer/transfer"
 )

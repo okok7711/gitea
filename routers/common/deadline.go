@@ -6,8 +6,8 @@ package common
 import (
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/timeutil"
 )
 
 func ParseDeadlineDateToEndOfDay(date string) (timeutil.TimeStamp, error) {

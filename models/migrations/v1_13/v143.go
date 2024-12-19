@@ -4,7 +4,7 @@
 package v1_13 //nolint
 
 import (
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 
 	"xorm.io/xorm"
 )

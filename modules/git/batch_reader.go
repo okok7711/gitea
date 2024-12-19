@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 
 	"github.com/djherbis/buffer"
 	"github.com/djherbis/nio/v3"

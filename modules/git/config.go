@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 // syncGitConfig only modifies gitconfig, won't change global variables (otherwise there will be data-race problem)

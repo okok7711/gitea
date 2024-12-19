@@ -11,16 +11,16 @@ import (
 	"strconv"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/charset"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/highlight"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/charset"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/highlight"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/templates"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/context"
+	files_service "github.com/okok7711/gitea/services/repository/files"
 )
 
 type blameRow struct {

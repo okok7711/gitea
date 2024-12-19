@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli/v2"

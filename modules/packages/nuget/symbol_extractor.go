@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/packages"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/packages"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 var (

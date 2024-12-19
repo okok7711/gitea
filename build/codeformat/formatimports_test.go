@@ -55,10 +55,10 @@ import (
 	_ "image/jpeg" // for processing jpeg images
 	_ "image/png"  // for processing png images
 
-	"code.gitea.io/other/package"
+	"github.com/okok7711/other/package"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 
   "xorm.io/the/package"
 
@@ -81,10 +81,10 @@ import (
 	_ "image/jpeg" // for processing jpeg images
 	_ "image/png"  // for processing png images
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 
-	"code.gitea.io/other/package"
+	"github.com/okok7711/other/package"
 	"github.com/issue9/identicon"
 	"github.com/nfnt/resize"
 	"github.com/oliamb/cutter"

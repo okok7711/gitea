@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"xorm.io/xorm"
 )

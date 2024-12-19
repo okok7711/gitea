@@ -10,7 +10,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"code.gitea.io/gitea/modules/translation"
+	"github.com/okok7711/gitea/modules/translation"
 
 	"golang.org/x/net/html"
 )

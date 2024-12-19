@@ -13,15 +13,15 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	"code.gitea.io/gitea/services/gitdiff"
+	"github.com/okok7711/gitea/models"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
+	repo_module "github.com/okok7711/gitea/modules/repository"
+	"github.com/okok7711/gitea/modules/setting"
+	asymkey_service "github.com/okok7711/gitea/services/asymkey"
+	"github.com/okok7711/gitea/services/gitdiff"
 )
 
 // TemporaryUploadRepository is a type to wrap our upload repositories as a shallow clone

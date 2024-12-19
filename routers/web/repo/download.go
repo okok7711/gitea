@@ -8,15 +8,15 @@ import (
 	"path"
 	"time"
 
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/lfs"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/services/context"
+	git_model "github.com/okok7711/gitea/models/git"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/httpcache"
+	"github.com/okok7711/gitea/modules/lfs"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/storage"
+	"github.com/okok7711/gitea/routers/common"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // ServeBlobOrLFS download a git.Blob redirecting to LFS if necessary

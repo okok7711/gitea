@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 func Test_isGitRawOrLFSPath(t *testing.T) {

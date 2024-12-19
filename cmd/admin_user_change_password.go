@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/auth/password"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	user_service "code.gitea.io/gitea/services/user"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/auth/password"
+	"github.com/okok7711/gitea/modules/optional"
+	"github.com/okok7711/gitea/modules/setting"
+	user_service "github.com/okok7711/gitea/services/user"
 
 	"github.com/urfave/cli/v2"
 )

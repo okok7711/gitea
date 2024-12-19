@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/nocturnal"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/markup/nocturnal"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/yuin/goldmark/ast"
 	east "github.com/yuin/goldmark/extension/ast"

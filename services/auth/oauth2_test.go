@@ -7,10 +7,10 @@ import (
 	"context"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/services/actions"
+	"github.com/okok7711/gitea/models/unittest"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/web/middleware"
+	"github.com/okok7711/gitea/services/actions"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -7,10 +7,10 @@ import (
 	"io"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/private"
-	myCtx "code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/migrations"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/private"
+	myCtx "github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/migrations"
 )
 
 // RestoreRepo restore a repository from data

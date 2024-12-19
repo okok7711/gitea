@@ -9,14 +9,14 @@ import (
 	"net/http"
 	"strings"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/private"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // GenerateActionsRunnerToken generates a new runner token for a given scope

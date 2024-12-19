@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/routers/api/actions"
-	actions_service "code.gitea.io/gitea/services/actions"
+	"github.com/okok7711/gitea/modules/storage"
+	"github.com/okok7711/gitea/routers/api/actions"
+	actions_service "github.com/okok7711/gitea/services/actions"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/encoding/protojson"

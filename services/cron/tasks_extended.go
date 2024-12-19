@@ -7,17 +7,17 @@ import (
 	"context"
 	"time"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/system"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	issue_indexer "code.gitea.io/gitea/modules/indexer/issues"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/updatechecker"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	repo_service "code.gitea.io/gitea/services/repository"
-	archiver_service "code.gitea.io/gitea/services/repository/archiver"
-	user_service "code.gitea.io/gitea/services/user"
+	activities_model "github.com/okok7711/gitea/models/activities"
+	"github.com/okok7711/gitea/models/system"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	issue_indexer "github.com/okok7711/gitea/modules/indexer/issues"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/updatechecker"
+	asymkey_service "github.com/okok7711/gitea/services/asymkey"
+	repo_service "github.com/okok7711/gitea/services/repository"
+	archiver_service "github.com/okok7711/gitea/services/repository/archiver"
+	user_service "github.com/okok7711/gitea/services/user"
 )
 
 func registerDeleteInactiveUsers() {

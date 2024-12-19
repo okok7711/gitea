@@ -14,7 +14,7 @@ import (
 
 var importPackageGroupOrders = map[string]int{
 	"":                     1, // internal
-	"code.gitea.io/gitea/": 2,
+	"github.com/okok7711/gitea/": 2,
 }
 
 var errInvalidCommentBetweenImports = errors.New("comments between imported packages are invalid, please move comments to the end of the package line")

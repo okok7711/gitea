@@ -11,14 +11,14 @@ import (
 	"path"
 	"strings"
 
-	"code.gitea.io/gitea/models/renderhelper"
-	"code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/models/renderhelper"
+	"github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/httplib"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/markup/markdown"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // RenderMarkup renders markup text for the /markup and /markdown endpoints

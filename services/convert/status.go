@@ -6,9 +6,9 @@ package convert
 import (
 	"context"
 
-	git_model "code.gitea.io/gitea/models/git"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
+	git_model "github.com/okok7711/gitea/models/git"
+	user_model "github.com/okok7711/gitea/models/user"
+	api "github.com/okok7711/gitea/modules/structs"
 )
 
 // ToCommitStatus converts git_model.CommitStatus to api.CommitStatus

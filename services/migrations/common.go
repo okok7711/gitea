@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	system_model "code.gitea.io/gitea/models/system"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	base "code.gitea.io/gitea/modules/migration"
+	system_model "github.com/okok7711/gitea/models/system"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
+	base "github.com/okok7711/gitea/modules/migration"
 )
 
 // WarnAndNotice will log the provided message and send a repository notice

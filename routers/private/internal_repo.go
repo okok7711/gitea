@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"net/http"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	gitea_context "code.gitea.io/gitea/services/context"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	"github.com/okok7711/gitea/modules/gitrepo"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/private"
+	gitea_context "github.com/okok7711/gitea/services/context"
 )
 
 // This file contains common functions relating to setting the Repository for the internal routes

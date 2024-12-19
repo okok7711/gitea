@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/external"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/tests"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/markup/external"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

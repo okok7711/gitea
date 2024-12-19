@@ -9,13 +9,13 @@ import (
 	"html"
 	"html/template"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/avatars"
-	"code.gitea.io/gitea/models/organization"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	gitea_html "code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/setting"
+	activities_model "github.com/okok7711/gitea/models/activities"
+	"github.com/okok7711/gitea/models/avatars"
+	"github.com/okok7711/gitea/models/organization"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	gitea_html "github.com/okok7711/gitea/modules/htmlutil"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 type AvatarUtils struct {

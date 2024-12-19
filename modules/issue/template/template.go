@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/container"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/container"
+	api "github.com/okok7711/gitea/modules/structs"
 
 	"gitea.com/go-chi/binding"
 )

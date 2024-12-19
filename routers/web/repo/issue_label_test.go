@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"testing"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/contexttest"
-	"code.gitea.io/gitea/services/forms"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/repository"
+	"github.com/okok7711/gitea/modules/test"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/contexttest"
+	"github.com/okok7711/gitea/services/forms"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 const (

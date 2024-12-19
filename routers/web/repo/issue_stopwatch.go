@@ -6,10 +6,10 @@ package repo
 import (
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/eventsource"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/models/db"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	"github.com/okok7711/gitea/modules/eventsource"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // IssueStopwatch creates or stops a stopwatch for the given issue.

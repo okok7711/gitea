@@ -20,7 +20,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"code.gitea.io/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/json"
 )
 
 const (

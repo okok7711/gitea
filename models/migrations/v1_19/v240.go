@@ -4,8 +4,8 @@
 package v1_19 //nolint
 
 import (
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"xorm.io/xorm"
 )

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/validation"
 
 	"github.com/klauspost/compress/zstd"
 	"github.com/ulikunitz/xz"

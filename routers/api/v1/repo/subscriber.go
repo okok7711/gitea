@@ -6,11 +6,11 @@ package repo
 import (
 	"net/http"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/routers/api/v1/utils"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
 )
 
 // ListSubscribers list a repo's subscribers (i.e. watchers)

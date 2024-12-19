@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/markup"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 func TestMain(m *testing.M) {

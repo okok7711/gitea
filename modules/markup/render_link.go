@@ -7,9 +7,9 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/httplib"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 func resolveLinkRelative(ctx context.Context, base, cur, link string, absolute bool) (finalLink string) {

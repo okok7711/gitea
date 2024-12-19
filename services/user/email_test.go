@@ -6,11 +6,11 @@ package user
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	organization_model "code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/models/db"
+	organization_model "github.com/okok7711/gitea/models/organization"
+	"github.com/okok7711/gitea/models/unittest"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"github.com/gobwas/glob"
 	"github.com/stretchr/testify/assert"

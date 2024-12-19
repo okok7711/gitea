@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
-	secret_service "code.gitea.io/gitea/services/secrets"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/util"
+	secret_service "github.com/okok7711/gitea/services/secrets"
 )
 
 func CreateVariable(ctx context.Context, ownerID, repoID int64, name, data string) (*actions_model.ActionVariable, error) {

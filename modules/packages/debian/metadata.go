@@ -12,9 +12,9 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
-	"code.gitea.io/gitea/modules/zstd"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/validation"
+	"github.com/okok7711/gitea/modules/zstd"
 
 	"github.com/blakesmith/ar"
 	"github.com/ulikunitz/xz"

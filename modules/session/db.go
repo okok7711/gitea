@@ -7,9 +7,9 @@ import (
 	"log"
 	"sync"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/timeutil"
 
 	"gitea.com/go-chi/session"
 )

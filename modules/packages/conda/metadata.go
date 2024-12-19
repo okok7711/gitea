@@ -10,10 +10,10 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
-	"code.gitea.io/gitea/modules/zstd"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/validation"
+	"github.com/okok7711/gitea/modules/zstd"
 )
 
 var (

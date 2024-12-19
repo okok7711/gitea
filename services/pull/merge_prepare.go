@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models"
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
+	"github.com/okok7711/gitea/models"
+	issues_model "github.com/okok7711/gitea/models/issues"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/log"
+	asymkey_service "github.com/okok7711/gitea/services/asymkey"
 )
 
 type mergeContext struct {

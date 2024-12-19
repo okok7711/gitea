@@ -11,8 +11,8 @@ import (
 	"io"
 	"os"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 // BlamePart represents block of blame - continuous lines with one sha

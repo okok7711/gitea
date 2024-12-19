@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/routers"
 
 	"github.com/stretchr/testify/assert"
 )

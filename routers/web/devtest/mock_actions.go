@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/web/repo/actions"
-	"code.gitea.io/gitea/services/context"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/routers/web/repo/actions"
+	"github.com/okok7711/gitea/services/context"
 )
 
 func generateMockStepsLog(logCur actions.LogCursor) (stepsLog []*actions.ViewStepLog) {

@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"github.com/okok7711/gitea/models/organization"
+	"github.com/okok7711/gitea/models/perm"
+	access_model "github.com/okok7711/gitea/models/perm/access"
+	repo_model "github.com/okok7711/gitea/models/repo"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/log"
+	api "github.com/okok7711/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/web"
+	"github.com/okok7711/gitea/services/context"
+	"github.com/okok7711/gitea/services/convert"
+	repo_service "github.com/okok7711/gitea/services/repository"
 )
 
 // Transfer transfers the ownership of a repository

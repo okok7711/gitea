@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"strings"
 
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"github.com/okok7711/gitea/modules/htmlutil"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/web/middleware"
 
 	"gitea.com/go-chi/binding"
 	"github.com/go-chi/chi/v5"

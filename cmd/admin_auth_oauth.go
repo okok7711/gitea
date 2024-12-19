@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net/url"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/services/auth/source/oauth2"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/services/auth/source/oauth2"
 
 	"github.com/urfave/cli/v2"
 )

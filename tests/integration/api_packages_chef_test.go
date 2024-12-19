@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	chef_module "code.gitea.io/gitea/modules/packages/chef"
-	"code.gitea.io/gitea/modules/setting"
-	chef_router "code.gitea.io/gitea/routers/api/packages/chef"
-	"code.gitea.io/gitea/tests"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/models/packages"
+	"github.com/okok7711/gitea/models/unittest"
+	user_model "github.com/okok7711/gitea/models/user"
+	chef_module "github.com/okok7711/gitea/modules/packages/chef"
+	"github.com/okok7711/gitea/modules/setting"
+	chef_router "github.com/okok7711/gitea/routers/api/packages/chef"
+	"github.com/okok7711/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

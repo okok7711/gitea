@@ -6,8 +6,8 @@ package markup
 import (
 	"strings"
 
-	"code.gitea.io/gitea/modules/emoji"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/emoji"
+	"github.com/okok7711/gitea/modules/setting"
 
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"

@@ -12,11 +12,11 @@ import (
 	"runtime"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/testlogger"
+	"github.com/okok7711/gitea/models/unittest"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/git"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/testlogger"
 
 	"github.com/stretchr/testify/require"
 	"xorm.io/xorm"

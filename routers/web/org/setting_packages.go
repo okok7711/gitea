@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
-	shared "code.gitea.io/gitea/routers/web/shared/packages"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	"code.gitea.io/gitea/services/context"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/setting"
+	shared "github.com/okok7711/gitea/routers/web/shared/packages"
+	shared_user "github.com/okok7711/gitea/routers/web/shared/user"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

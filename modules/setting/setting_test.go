@@ -6,7 +6,7 @@ package setting
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/json"
 
 	"github.com/stretchr/testify/assert"
 )

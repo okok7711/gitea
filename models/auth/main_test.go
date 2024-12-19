@@ -6,13 +6,13 @@ package auth_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"github.com/okok7711/gitea/models/unittest"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
-	_ "code.gitea.io/gitea/models/auth"
-	_ "code.gitea.io/gitea/models/perm/access"
+	_ "github.com/okok7711/gitea/models"
+	_ "github.com/okok7711/gitea/models/actions"
+	_ "github.com/okok7711/gitea/models/activities"
+	_ "github.com/okok7711/gitea/models/auth"
+	_ "github.com/okok7711/gitea/models/perm/access"
 )
 
 func TestMain(m *testing.M) {

@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models"
-	auth_model "code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
-	password_module "code.gitea.io/gitea/modules/auth/password"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/okok7711/gitea/models"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	user_model "github.com/okok7711/gitea/models/user"
+	password_module "github.com/okok7711/gitea/modules/auth/password"
+	"github.com/okok7711/gitea/modules/optional"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/structs"
 )
 
 type UpdateOptions struct {

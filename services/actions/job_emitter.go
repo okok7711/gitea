@@ -8,10 +8,10 @@ import (
 	"errors"
 	"fmt"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/queue"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/graceful"
+	"github.com/okok7711/gitea/modules/queue"
 
 	"github.com/nektos/act/pkg/jobparser"
 	"xorm.io/builder"

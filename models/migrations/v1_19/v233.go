@@ -6,10 +6,10 @@ package v1_19 //nolint
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/secret"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/okok7711/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/secret"
+	"github.com/okok7711/gitea/modules/setting"
+	api "github.com/okok7711/gitea/modules/structs"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

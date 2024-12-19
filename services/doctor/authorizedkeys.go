@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	asymkey_service "github.com/okok7711/gitea/services/asymkey"
 )
 
 const tplCommentPrefix = `# gitea public key`

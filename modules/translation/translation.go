@@ -10,11 +10,11 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/options"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation/i18n"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/options"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/translation/i18n"
+	"github.com/okok7711/gitea/modules/util"
 
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"

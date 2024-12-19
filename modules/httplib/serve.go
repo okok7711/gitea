@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	charsetModule "code.gitea.io/gitea/modules/charset"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/typesniffer"
-	"code.gitea.io/gitea/modules/util"
+	charsetModule "github.com/okok7711/gitea/modules/charset"
+	"github.com/okok7711/gitea/modules/container"
+	"github.com/okok7711/gitea/modules/httpcache"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/typesniffer"
+	"github.com/okok7711/gitea/modules/util"
 
 	"github.com/klauspost/compress/gzhttp"
 )

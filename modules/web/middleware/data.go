@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/setting"
 )
 
 // ContextDataStore represents a data store

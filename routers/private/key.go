@@ -6,10 +6,10 @@ package private
 import (
 	"net/http"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/services/context"
+	asymkey_model "github.com/okok7711/gitea/models/asymkey"
+	"github.com/okok7711/gitea/modules/private"
+	"github.com/okok7711/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/services/context"
 )
 
 // UpdatePublicKeyInRepo update public key and deploy key updates

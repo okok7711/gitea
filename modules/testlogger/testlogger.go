@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/queue"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/queue"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 var (

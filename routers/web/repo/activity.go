@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/services/context"
+	activities_model "github.com/okok7711/gitea/models/activities"
+	"github.com/okok7711/gitea/models/unit"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

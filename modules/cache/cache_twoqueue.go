@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/modules/json"
+	"github.com/okok7711/gitea/modules/json"
 
 	mc "gitea.com/go-chi/cache" //nolint:depguard
 	lru "github.com/hashicorp/golang-lru/v2"

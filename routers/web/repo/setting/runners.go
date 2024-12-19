@@ -8,13 +8,13 @@ import (
 	"net/http"
 	"net/url"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
-	actions_shared "code.gitea.io/gitea/routers/web/shared/actions"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	"code.gitea.io/gitea/services/context"
+	actions_model "github.com/okok7711/gitea/models/actions"
+	"github.com/okok7711/gitea/models/db"
+	"github.com/okok7711/gitea/modules/base"
+	"github.com/okok7711/gitea/modules/setting"
+	actions_shared "github.com/okok7711/gitea/routers/web/shared/actions"
+	shared_user "github.com/okok7711/gitea/routers/web/shared/user"
+	"github.com/okok7711/gitea/services/context"
 )
 
 const (

@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/tests"
+	activities_model "github.com/okok7711/gitea/models/activities"
+	auth_model "github.com/okok7711/gitea/models/auth"
+	"github.com/okok7711/gitea/modules/timeutil"
+	"github.com/okok7711/gitea/tests"
 
 	"github.com/stretchr/testify/assert"
 )

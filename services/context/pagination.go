@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/paginator"
+	"github.com/okok7711/gitea/modules/paginator"
 )
 
 // Pagination provides a pagination via paginator.Paginator and additional configurations for the link params used in rendering

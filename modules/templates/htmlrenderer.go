@@ -19,12 +19,12 @@ import (
 	"sync/atomic"
 	texttemplate "text/template"
 
-	"code.gitea.io/gitea/modules/assetfs"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates/scopedtmpl"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/okok7711/gitea/modules/assetfs"
+	"github.com/okok7711/gitea/modules/graceful"
+	"github.com/okok7711/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/modules/templates/scopedtmpl"
+	"github.com/okok7711/gitea/modules/util"
 )
 
 type TemplateExecutor scopedtmpl.TemplateExecutor

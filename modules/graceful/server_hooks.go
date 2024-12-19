@@ -7,7 +7,7 @@ import (
 	"os"
 	"runtime"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/okok7711/gitea/modules/log"
 )
 
 // awaitShutdown waits for the shutdown signal from the Manager

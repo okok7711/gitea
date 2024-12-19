@@ -11,11 +11,11 @@ import (
 	"net/url"
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/activitypub"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/routers"
+	"github.com/okok7711/gitea/models/db"
+	user_model "github.com/okok7711/gitea/models/user"
+	"github.com/okok7711/gitea/modules/activitypub"
+	"github.com/okok7711/gitea/modules/setting"
+	"github.com/okok7711/gitea/routers"
 
 	ap "github.com/go-ap/activitypub"
 	"github.com/stretchr/testify/assert"
