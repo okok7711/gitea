@@ -53,6 +53,16 @@ type RenderOptions struct {
 	InStandalonePage bool
 }
 
+func NewRenderOptions(useAbsoluteLink bool, relativePath, markupType string, metas map[string]string, inStandalonePage bool) *RenderOptions {
+    return &RenderOptions{
+        UseAbsoluteLink: useAbsoluteLink,
+        RelativePath:    relativePath,
+        MarkupType:      markupType,
+        Metas:           metas,
+        InStandalonePage: inStandalonePage,
+    }
+}
+
 // RenderContext represents a render context
 type RenderContext struct {
 	ctx context.Context
@@ -65,6 +75,10 @@ type RenderContext struct {
 	RenderHelper   RenderHelper
 	RenderOptions  RenderOptions
 	RenderInternal internal.RenderInternal
+}
+
+func (ctx *RenderContext) GetRenderOptions() *RenderOptions {
+    return &rc.RenderOptions
 }
 
 func (ctx *RenderContext) Deadline() (deadline time.Time, ok bool) {
