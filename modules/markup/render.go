@@ -78,7 +78,7 @@ type RenderContext struct {
 }
 
 func (ctx *RenderContext) GetRenderOptions() *RenderOptions {
-    return &rc.RenderOptions
+    return &ctx.RenderOptions
 }
 
 func (ctx *RenderContext) Deadline() (deadline time.Time, ok bool) {
