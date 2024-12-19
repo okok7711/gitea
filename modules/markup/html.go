@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/markup/common"
+	"github.com/okok7711/gitea/modules/markup/common"
 
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
