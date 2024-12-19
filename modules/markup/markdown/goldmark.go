@@ -11,7 +11,7 @@ import (
 
 	"code.gitea.io/gitea/modules/container"
 	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/internal"
+	"code.gitea.io/gitea/modules/markup/nocturnal"
 	"code.gitea.io/gitea/modules/setting"
 
 	"github.com/yuin/goldmark/ast"
@@ -25,11 +25,11 @@ import (
 
 // ASTTransformer is a default transformer of the goldmark tree.
 type ASTTransformer struct {
-	renderInternal *internal.RenderInternal
+	renderInternal *nocturnal.RenderInternal
 	attentionTypes container.Set[string]
 }
 
-func NewASTTransformer(renderInternal *internal.RenderInternal) *ASTTransformer {
+func NewASTTransformer(renderInternal *nocturnal.RenderInternal) *ASTTransformer {
 	return &ASTTransformer{
 		renderInternal: renderInternal,
 		attentionTypes: container.SetOf("note", "tip", "important", "warning", "caution"),
@@ -117,7 +117,7 @@ var reValidIconName = sync.OnceValue[*regexp.Regexp](func() *regexp.Regexp {
 })
 
 // NewHTMLRenderer creates a HTMLRenderer to render in the gitea form.
-func NewHTMLRenderer(renderInternal *internal.RenderInternal, opts ...html.Option) renderer.NodeRenderer {
+func NewHTMLRenderer(renderInternal *nocturnal.RenderInternal, opts ...html.Option) renderer.NodeRenderer {
 	r := &HTMLRenderer{
 		renderInternal: renderInternal,
 		Config:         html.NewConfig(),
@@ -132,7 +132,7 @@ func NewHTMLRenderer(renderInternal *internal.RenderInternal, opts ...html.Optio
 // renders gitea specific features.
 type HTMLRenderer struct {
 	html.Config
-	renderInternal *internal.RenderInternal
+	renderInternal *nocturnal.RenderInternal
 }
 
 // RegisterFuncs implements renderer.NodeRenderer.RegisterFuncs.

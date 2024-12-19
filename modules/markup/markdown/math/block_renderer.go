@@ -4,7 +4,7 @@
 package math
 
 import (
-	"code.gitea.io/gitea/modules/markup/internal"
+	"code.gitea.io/gitea/modules/markup/nocturnal"
 	giteaUtil "code.gitea.io/gitea/modules/util"
 
 	gast "github.com/yuin/goldmark/ast"
@@ -25,11 +25,11 @@ import (
 
 // BlockRenderer represents a renderer for math Blocks
 type BlockRenderer struct {
-	renderInternal *internal.RenderInternal
+	renderInternal *nocturnal.RenderInternal
 }
 
 // NewBlockRenderer creates a new renderer for math Blocks
-func NewBlockRenderer(renderInternal *internal.RenderInternal) renderer.NodeRenderer {
+func NewBlockRenderer(renderInternal *nocturnal.RenderInternal) renderer.NodeRenderer {
 	return &BlockRenderer{renderInternal: renderInternal}
 }
 

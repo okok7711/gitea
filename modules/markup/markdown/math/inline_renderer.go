@@ -6,7 +6,7 @@ package math
 import (
 	"bytes"
 
-	"code.gitea.io/gitea/modules/markup/internal"
+	"code.gitea.io/gitea/modules/markup/nocturnal"
 
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/renderer"
@@ -18,11 +18,11 @@ import (
 
 // InlineRenderer is an inline renderer
 type InlineRenderer struct {
-	renderInternal *internal.RenderInternal
+	renderInternal *nocturnal.RenderInternal
 }
 
 // NewInlineRenderer returns a new renderer for inline math
-func NewInlineRenderer(renderInternal *internal.RenderInternal) renderer.NodeRenderer {
+func NewInlineRenderer(renderInternal *nocturnal.RenderInternal) renderer.NodeRenderer {
 	return &InlineRenderer{renderInternal: renderInternal}
 }
 

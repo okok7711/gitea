@@ -4,7 +4,7 @@
 package math
 
 import (
-	"code.gitea.io/gitea/modules/markup/internal"
+	"code.gitea.io/gitea/modules/markup/nocturnal"
 	giteaUtil "code.gitea.io/gitea/modules/util"
 
 	"github.com/yuin/goldmark"
@@ -22,12 +22,12 @@ type Options struct {
 
 // Extension is a math extension
 type Extension struct {
-	renderInternal *internal.RenderInternal
+	renderInternal *nocturnal.RenderInternal
 	options        Options
 }
 
 // NewExtension creates a new math extension with the provided options
-func NewExtension(renderInternal *internal.RenderInternal, opts ...Options) *Extension {
+func NewExtension(renderInternal *nocturnal.RenderInternal, opts ...Options) *Extension {
 	opt := giteaUtil.OptionalArg(opts)
 	r := &Extension{
 		renderInternal: renderInternal,

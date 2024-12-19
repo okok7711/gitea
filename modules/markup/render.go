@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/okok7711/gitea/modules/markup/internal"
+	"github.com/okok7711/gitea/modules/markup/nocturnal"
 	"github.com/okok7711/gitea/modules/setting"
 	"github.com/okok7711/gitea/modules/util"
 
@@ -74,7 +74,7 @@ type RenderContext struct {
 
 	RenderHelper   RenderHelper
 	RenderOptions  RenderOptions
-	RenderInternal internal.RenderInternal
+	RenderInternal nocturnal.RenderInternal
 }
 
 func (ctx *RenderContext) GetRenderOptions() *RenderOptions {
