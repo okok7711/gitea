@@ -1,4 +1,4 @@
-module code.gitea.io/gitea
+module github.com/okok7711/gitea
 
 go 1.23
 
