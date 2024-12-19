@@ -13,7 +13,7 @@ import (
 	"github.com/okok7711/gitea/modules/log"
 	"github.com/okok7711/gitea/modules/markup"
 	"github.com/okok7711/gitea/modules/markup/common"
-	"github.com/okok7711/gitea/modules/markup/markdown/math"
+	"github.com/okok7711/gitea/modules/markup/math"
 	"github.com/okok7711/gitea/modules/setting"
 	giteautil "github.com/okok7711/gitea/modules/util"
 
