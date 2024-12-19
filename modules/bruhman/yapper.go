@@ -1,8 +1,7 @@
 package bruhman
 
 import (
-        "fmt"
-	"code.gitea.io/gitea/modules/markup"
+        "code.gitea.io/gitea/modules/markup"
 	"code.gitea.io/gitea/modules/markup/markdown"
 )
 
